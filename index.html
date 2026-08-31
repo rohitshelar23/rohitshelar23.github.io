@@ -404,6 +404,19 @@
             height: 36px
         }
 
+        .toolkit-logos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .toolkit-logos img {
+            width: 42px;
+            height: 42px;
+            object-fit: contain;
+        }
+
         .skill-name {
             font-size: 15px;
             font-weight: 600;
@@ -1048,17 +1061,11 @@
         </div>
         <div class="skills-grid">
 
-            <!-- Flutter -->
+            <!-- Framework & Language -->
             <div class="skill-cell reveal">
-                <div class="skill-icon-wrap">
-                    <!-- Official Flutter logo SVG -->
-                    <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M233.5 1.6L1.6 233.4l97 97L428.5 1.6z" fill="#54C5F8" />
-                        <path d="M233.5 1.6L136.5 98.6l194 194 97-97z" fill="#01579B" />
-                        <path d="M136.5 294.5l46.9 46.9 97-97-46.9-46.9z" fill="#29B6F6" />
-                        <path d="M183.4 341.4l50.1 50.1 97-97-50.1-50.1z" fill="#01579B" />
-                        <path d="M183.4 341.4l24.2 24.2 72.8-72.8-24.2-24.2z" fill="#00B0FF" opacity=".5" />
-                    </svg>
+                <div class="skill-icon-wrap toolkit-logos">
+                    <img src="https://cdn.simpleicons.org/flutter/54C5F8" alt="Flutter" />
+                    <img src="https://cdn.simpleicons.org/dart/0175C2" alt="Dart" />
                 </div>
                 <div class="skill-name">Framework &amp; Language</div>
                 <div class="tags">
@@ -1068,14 +1075,11 @@
                 </div>
             </div>
 
-            <!-- Bloc -->
+            <!-- State Management -->
             <div class="skill-cell reveal">
-                <div class="skill-icon-wrap">
-                    <!-- Bloc logo SVG -->
-                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="64" height="64" rx="14" fill="#1D6EF5" />
-                        <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="800" font-size="22" fill="white" letter-spacing="-1">bloc</text>
-                    </svg>
+                <div class="skill-icon-wrap toolkit-logos">
+                    <img src="https://cdn.simpleicons.org/bloc/1D6EF5" alt="Bloc" />
+                    <img src="https://cdn.simpleicons.org/riverpod/087EA4" alt="Riverpod" />
                 </div>
                 <div class="skill-name">State Management</div>
                 <div class="tags">
@@ -1084,17 +1088,10 @@
                 </div>
             </div>
 
-            <!-- Firestore / Firebase -->
+            <!-- APIs & Backend -->
             <div class="skill-cell reveal">
-                <div class="skill-icon-wrap">
-                    <!-- Firebase / Firestore official flame SVG -->
-                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.62 11.558l-3.203 2.98-2.972-5.995-1.437 2.98L8 17.52l.027.007A6.945 6.945 0 0 0 8 18a8 8 0 1 0 16 0c0-2.6-1.255-4.915-3.38-6.442z" fill="#FFA000" />
-                        <path d="M19.62 11.558l-.437-.803A11.945 11.945 0 0 0 16 10c-1.5 0-2.94.28-4.254.782L13.447 8.543z" fill="#F57F17" />
-                        <path d="M19.62 11.558L16 10l-2.553 8 6.173-6.442z" fill="#FFCA28" />
-                        <path d="M8 17.526l5.447-9.527-2.014-4.06a.42.42 0 0 0-.388-.256.43.43 0 0 0-.37.218L8 17.52z" fill="#FFA000" />
-                        <path d="M8 17.526L13.447 8l-2.014-4.06a.43.43 0 0 0-.388-.255L8 17.526z" fill="#F57F17" />
-                    </svg>
+                <div class="skill-icon-wrap toolkit-logos">
+                    <img src="https://cdn.simpleicons.org/firebase/FFCA28" alt="Firebase" />
                 </div>
                 <div class="skill-name">APIs &amp; Backend</div>
                 <div class="tags">
@@ -1104,17 +1101,10 @@
                 </div>
             </div>
 
-            <!-- Figma -->
+            <!-- UI/UX & Design -->
             <div class="skill-cell reveal">
-                <div class="skill-icon-wrap">
-                    <!-- Figma official logo SVG -->
-                    <svg viewBox="0 0 38 57" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19 28.5A9.5 9.5 0 0 1 28.5 19H19v9.5z" fill="#1ABCFE" />
-                        <path d="M9.5 47.5A9.5 9.5 0 0 1 19 38v-9.5H9.5a9.5 9.5 0 0 0 0 19z" fill="#0ACF83" />
-                        <path d="M9.5 28.5H19V9.5H9.5a9.5 9.5 0 0 0 0 19z" fill="#FF7262" />
-                        <path d="M19 9.5h9.5a9.5 9.5 0 0 1 0 19H19V9.5z" fill="#F24E1E" />
-                        <path d="M28.5 28.5A9.5 9.5 0 1 1 19 38V28.5h9.5z" fill="#A259FF" />
-                    </svg>
+                <div class="skill-icon-wrap toolkit-logos">
+                    <img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma" />
                 </div>
                 <div class="skill-name">UI/UX &amp; Design</div>
                 <div class="tags">
@@ -1123,20 +1113,12 @@
                 </div>
             </div>
 
-            <!-- VS Code -->
+            <!-- Tools & Workflow -->
             <div class="skill-cell reveal">
-                <div class="skill-icon-wrap">
-                    <!-- VS Code official SVG logo -->
-                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="m">
-                            <rect width="100" height="100" rx="15" fill="white" />
-                            <path d="M70.9 20.1L50.2 43.3 36.1 31.4 14.7 44.3v11.4l21.4 12.9 14.1-11.9 20.7 23.2L86 71V29L70.9 20.1z" fill="black" />
-                        </mask>
-                        <rect width="100" height="100" rx="15" fill="#0066B8" mask="url(#m)" />
-                        <path d="M86 29L70.9 20.1 50.2 43.3 36.1 31.4 14.7 44.3v11.4l21.4 12.9 14.1-11.9 20.7 23.2L86 71V29z" fill="white" />
-                        <path d="M70.9 20.1L50.2 43.3 36.1 31.4 14.7 44.3l21.4-12.9L50.2 43.3l20.7-23.2z" fill="#52A8EC" />
-                        <path d="M36.1 68.6L14.7 55.7l21.4 12.9 14.1-11.9-14.1 11.9z" fill="#52A8EC" />
-                    </svg>
+                <div class="skill-icon-wrap toolkit-logos">
+                    <img src="https://cdn.simpleicons.org/git/F05032" alt="Git" />
+                    <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" />
+                    <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" alt="Visual Studio Code" />
                 </div>
                 <div class="skill-name">Tools &amp; Workflow</div>
                 <div class="tags">
@@ -1146,22 +1128,10 @@
                 </div>
             </div>
 
-            <!-- AI -->
+            <!-- AI & Product -->
             <div class="skill-cell reveal">
-                <div class="skill-icon-wrap">
-                    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="40" height="40" rx="10" fill="#f5f5f7" />
-                        <circle cx="20" cy="20" r="8" fill="none" stroke="#1d1d1f" stroke-width="1.5" />
-                        <circle cx="20" cy="20" r="3" fill="#1d1d1f" />
-                        <line x1="20" y1="8" x2="20" y2="12" stroke="#1d1d1f" stroke-width="1.5" stroke-linecap="round" />
-                        <line x1="20" y1="28" x2="20" y2="32" stroke="#1d1d1f" stroke-width="1.5" stroke-linecap="round" />
-                        <line x1="8" y1="20" x2="12" y2="20" stroke="#1d1d1f" stroke-width="1.5" stroke-linecap="round" />
-                        <line x1="28" y1="20" x2="32" y2="20" stroke="#1d1d1f" stroke-width="1.5" stroke-linecap="round" />
-                        <line x1="11.5" y1="11.5" x2="14.3" y2="14.3" stroke="#1d1d1f" stroke-width="1.5" stroke-linecap="round" />
-                        <line x1="25.7" y1="25.7" x2="28.5" y2="28.5" stroke="#1d1d1f" stroke-width="1.5" stroke-linecap="round" />
-                        <line x1="28.5" y1="11.5" x2="25.7" y2="14.3" stroke="#1d1d1f" stroke-width="1.5" stroke-linecap="round" />
-                        <line x1="14.3" y1="25.7" x2="11.5" y2="28.5" stroke="#1d1d1f" stroke-width="1.5" stroke-linecap="round" />
-                    </svg>
+                <div class="skill-icon-wrap toolkit-logos">
+                    <img src="https://cdn.simpleicons.org/openai/000000" alt="OpenAI" />
                 </div>
                 <div class="skill-name">AI &amp; Product</div>
                 <div class="tags">
@@ -1216,15 +1186,6 @@
             <div class="section-label reveal">Projects</div>
             <h2 class="reveal">Things I've built.</h2>
             <p class="section-desc reveal">Three Flutter projects, each focused on a different skill set.</p>
-        </div>
-
-        <!-- ⚠️ SETUP NOTE — shown only when screenshots are missing -->
-        <div class="setup-note reveal" id="setupNote" style="display:none">
-            <strong>📂 To show screenshots on your GitHub Pages site:</strong> create a folder structure next to <code>index.html</code> and add your images:<br><br>
-            <code>screenshots/ridesphere/</code> → onboarding.jpeg, home1.jpeg, booking1.jpeg, confirmation.jpeg, tracking.jpeg, profile.jpeg<br>
-            <code>screenshots/aistorybuddy/</code> → home.png, quiz.png, success.png<br>
-            <code>screenshots/api/</code> → mobile.png, web.png<br><br>
-            Copy these directly from your project repos' <code>screenshots/</code> and <code>docs/</code> folders.
         </div>
 
         <!-- PROJECT 1: RideSphere -->
@@ -1304,10 +1265,6 @@
                             View on GitHub
                         </a>
                     </div>
-                </div>
-                <div class="project-shots wide-shots">
-                    <div class="pshot-wide"><img src="screenshots/api/mobile.png" alt="API Integration mobile" onerror="this.parentElement.innerHTML='<div class=\'pshot-wide-placeholder\'>📱 mobile.png — add screenshots/api/mobile.png</div>'" /></div>
-                    <div class="pshot-wide"><img src="screenshots/api/web.png" alt="API Integration web" onerror="this.parentElement.innerHTML='<div class=\'pshot-wide-placeholder\'>🖥️ web.png — add screenshots/api/web.png</div>'" /></div>
                 </div>
             </div>
         </div>
@@ -1408,12 +1365,6 @@
         });
         document.querySelectorAll('.cert-cell').forEach(el => co.observe(el));
 
-        // show setup note if screenshots are failing
-        window.addEventListener('load', () => {
-            const imgs = document.querySelectorAll('.project-shots img, .screenshot-strip img');
-            const anyBroken = [...imgs].some(img => !img.complete || img.naturalWidth === 0);
-            if (anyBroken) document.getElementById('setupNote').style.display = 'block';
-        });
     </script>
 </body>
 
